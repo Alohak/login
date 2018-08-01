@@ -1,0 +1,146 @@
+body
+{
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+}
+
+.header
+{
+    margin:70px 70px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 30px;
+}
+
+.container
+{
+    width: 400px;
+    height: 400px;
+    left:40%;
+    bottom: 100px;
+    position: absolute;
+    background: rgba(240,248,255,0.3);
+}
+
+.left
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top:10px;
+    margin-right:150px;
+    padding-left: 15px;
+    width: 100px;
+    height: 50px;
+    float: left;
+}
+
+.right
+{
+    font-size:1.3em;
+    font-weight:bold;
+    color: black;
+    text-align: right;
+    margin-left:10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 100px;
+    height: 50px;
+    float:right;
+}
+
+form
+{
+    margin-top: 50px;
+}
+
+.form-group
+{
+    float:left;
+    position: relative;
+    left:70px;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+.form-group1
+{
+    display: block;
+    float:left;
+    margin-top:50px;
+    margin-left:-140px;
+}
+
+.form-group2
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left:60px;
+    top:40px;
+}
+
+button
+{
+    display: block;
+    width:275px;
+    height:35px;
+    background-color:#FF9999;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+    border:0px;
+}
+
+.other{
+    width: 400px;
+    float:left;
+    position:relative;
+    left:16%;
+    margin-top: 80px;
+}
+
+.other p{
+    display: inline-block;
+    float: left;
+    left:200px;
+    margin-top: -3px;
+    font-size: 1.2em;
+}
+
+hr{
+    display: inline-block;
+    float: left;
+    text-align:left;
+    width: 66px;
+    height: 1px;
+    background-color: white;
+    border: 0px;
+}
+
+.picture
+{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 80px;
+}
+
+.qq img
+{
+    height: 40px;
+    width: 40px;
+    display: block;
+    float:left;
+}
+
+.wechat img
+{
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding-left: 140px;
+}
+

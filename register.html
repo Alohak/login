@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body background="img/background.jpg">
+<div class="head">
+    <div class="roll">
+        <a href="loginpage.html">返回登录界面>></a>
+    </div>
+</div>
+<div class="main">
+    <form class="form-all">
+        <div class="form">
+            <label class="phone">手  机  号&nbsp;</label>
+            <input type="text" id="phone-number" placeholder="请输入手机号">
+            <div class="form-get">
+                <button type="button" id="gainNumber">获取验证码</button>
+            </div>
+        </div>
+        <div class="form">
+            <labe class="getNum">验  证  码&nbsp;</labe>
+            <input type="text" id="checkNum" placeholder="请输入验证码">
+        </div>
+        <div class="form">
+            <label class="username">用  户  名&nbsp;</label>
+            <input type="text" id="username" placeholder="请输入用户名">
+        </div>
+        <div class="form">
+            <label class="pass"> &nbsp;&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+            <input type="password" id="pass1" placeholder="请输入至少七位数字或字符">
+        </div>
+        <div class="form">
+            <label class="pass">确认密码</label>
+            <input type="password" id="pass2" placeholder="请再次输入密码">
+        </div>
+        <div class="form">
+            <label class="sex">&nbsp;&nbsp;性&nbsp;&nbsp;&nbsp;&nbsp;别</label>
+            <label>
+                <input type="radio" name="option"  value="男" checked>
+                先生
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>
+                <input type="radio" name="option"  value="女" checked>
+                女士
+            </label>
+        </div>
+        <div class="form1">
+            <button type="submit" id="confirm">立&nbsp;&nbsp;即&nbsp;&nbsp;注&nbsp;&nbsp;册</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
